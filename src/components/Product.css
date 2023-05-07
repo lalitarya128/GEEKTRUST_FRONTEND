@@ -1,0 +1,146 @@
+.product-section,.filter-grid{
+    padding :5%;
+}
+
+.card,.filter-card{
+    padding:10px;
+}
+
+.card-button {
+    text-transform: none!important;
+    background-color: black;
+}
+.card-footer{
+    margin-top: .5rem;
+}
+
+.product-name{
+    text-align: left!important;
+    font-size: 1.5rem!important;
+}
+
+.filter-type{
+    font-weight:600;
+    text-align: left!important;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+
+.mobile-filter{
+    display:none;
+    background-color: black;
+    width:max-content;
+    margin: 0px 5px;
+    color: #ffff;
+    padding:3px 10px;
+    border-radius: 3px;
+}
+
+.search-filter-section{
+    padding: 10px;
+    width:30%;
+    margin:10px auto;
+}
+
+.search-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-icon{
+    margin: 0px 10px;
+    color: #ffff;
+    padding:3px 10px;
+    background-color: #979A9C;
+    width:fit-content;
+    border-radius: 3px;
+}
+
+.MuiDrawer-paper{
+    padding-left: 15px!important;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    text-transform: none!important;
+}
+
+.cart-item-price{
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.cart-grid{
+    margin-bottom: 15px;
+}
+
+.cart-section{
+    width:40%;
+    padding-left: 5%;
+}
+
+.quntity-box {
+    border: 1px solid #979A9C;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.shipping-cart-label{
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.amount-label{
+    font-weight: 700;
+}
+
+.cart-total .amount,.cart-total .amount-label{
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 667px) {
+    .desktop-filter {
+      display:none;
+    }
+    .mobile-filter{
+        display:block;
+    }
+    .search-icon{
+        background-color: black;
+    }
+    .search-filter-section{
+        width:90%;
+    }
+    .formcheckbox span{
+        padding:5px;
+    }
+    .cart-section{
+        width:100%;
+        padding-left: 2px;
+    }
+    .cart-grid{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
